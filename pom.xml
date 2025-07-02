@@ -52,12 +52,6 @@
 					<version>3.11.0</version>
 				</dependency>
 
-				<!-- AWS SDK for Elasticache (Redis) -->
-<!--				<dependency>-->
-<!--					<groupId>com.amazonaws</groupId>-->
-<!--					<artifactId>aws-java-sdk-elasticache</artifactId>-->
-<!--					<version>1.12.453</version>-->
-<!--				</dependency>-->
 
 <!--				&lt;!&ndash; Twilio SDK &ndash;&gt;-->
 				<dependency>
@@ -149,6 +143,12 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>local-repo</id>
+			<url>file:///C:/Users/Varsha/OneDrive/Desktop</url>
+		</repository>
+	</distributionManagement>
 
 
 </project>
